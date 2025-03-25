@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class MotocicletaRepository {
     // Simulamos una base de datos con un Map
     private final Map<String, Motocicleta> baseDeDatos = new HashMap<>();
