@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -14,6 +15,11 @@ public class MotocicletaRepository {
         baseDeDatos.put(motocicleta.getId(),motocicleta);
         return motocicleta;
     }
+    // Listar todos los usuarios
+    public List<Motocicleta> findAll() {
+        return new ArrayList<>(baseDeDatos.values());
+    }
+
     // Encontrar motocicleta por ID
     public Motocicleta findById(String id) {
         return baseDeDatos.get(id);
