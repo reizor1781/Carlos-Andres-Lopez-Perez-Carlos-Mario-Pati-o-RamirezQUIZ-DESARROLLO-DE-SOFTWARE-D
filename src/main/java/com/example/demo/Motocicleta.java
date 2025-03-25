@@ -28,11 +28,11 @@ public class Motocicleta {
 	public void setMarcaDeLaMotocicleta(String marcaDeLaMotocicleta) {
 		this.marcaDeLaMotocicleta = marcaDeLaMotocicleta;
 	}
-	public String getCiclajeDeMotocicleta() {
+	public String getCilindrajeDeMotocicleta() {
 		return cilindrajeDeMotocicleta;
 	}
-	public void setCiclajeDeMotocicleta(String ciclajeDeMotocicleta) {
-		this.cilindrajeDeMotocicleta = ciclajeDeMotocicleta;
+	public void setCilindrajeDeMotocicleta(String cilindrajeDeMotocicleta) {
+		this.cilindrajeDeMotocicleta = cilindrajeDeMotocicleta;
 	}
 	public String getPlacaDeMotocicleta() {
 		return placaDeMotocicleta;
